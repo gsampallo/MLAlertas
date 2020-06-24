@@ -1,6 +1,6 @@
 # MLAlertas
 
-Un sencillo programa en python para monitorear las ventas de un producto en MercadoLibro, cada vez que se incrementa el contador de vendidos envia un mensaje en Pushbullet.
+Un sencillo programa en python para monitorear las ventas de un producto en MercadoLibre, cada vez que se incrementa el contador de vendidos envia un mensaje en Pushbullet.
 
 ## Instalacion
 
@@ -17,7 +17,7 @@ pip3 install beautifulsoup4
 pip3 install pushbullet.py
 ```
 
-## Configuracion
+## Configuración
 
 El programa solo utiliza un archivo json donde almacena los parametros de configuracion, y la cantidad de productos vendidos para
 comparar.
@@ -30,7 +30,7 @@ Tiene la siguiente estructura:
 }
 ```
 
-## Ejecucion
+## Ejecución
 
 Recomiendo configurar para que se ejecute por medio de cron cada hora o dos horas, dependiendo la frecuencia que se necesite. Aqui un ejemplo de como agregar a la linea para que se ejecute cada hora.
 ```
